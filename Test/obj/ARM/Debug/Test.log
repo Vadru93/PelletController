@@ -1,0 +1,274 @@
+﻿  Validating sources
+  Copying sources remotely to '192.168.1.226'
+  Validating architecture
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  main.cpp
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1214,4): warning : "/*" within comment [-Wcomment]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1214,4): warning :     /*else
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(97,20): warning : conversion from ‘unsigned int’ to ‘std::vector<unsigned char>::value_type’ {aka ‘unsigned char’} may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(97,20): warning :   final.push_back(s >> 0);
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(97,20): warning :                   ~~^~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(98,20): warning : conversion from ‘unsigned int’ to ‘std::vector<unsigned char>::value_type’ {aka ‘unsigned char’} may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(98,20): warning :   final.push_back(s >> 8);
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(98,20): warning :                   ~~^~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(99,20): warning : conversion from ‘unsigned int’ to ‘std::vector<unsigned char>::value_type’ {aka ‘unsigned char’} may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(99,20): warning :   final.push_back(s >> 16);
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(99,20): warning :                   ~~^~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(100,20): warning : conversion from ‘unsigned int’ to ‘std::vector<unsigned char>::value_type’ {aka ‘unsigned char’} may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(100,20): warning :   final.push_back(s >> 24);
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(100,20): warning :                   ~~^~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(102,20): warning : comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(102,20): warning :   for (int i = 0; i < s; i++)
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(102,20): warning :                   ~~^~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(215,11): warning : conversion from ‘unsigned int’ to ‘float’ may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(215,11): warning :       _map(_time, 0, this->time, 0, 100),
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(215,11): warning :            ^~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(215,27): warning : conversion from ‘unsigned int’ to ‘float’ may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(215,27): warning :       _map(_time, 0, this->time, 0, 100),
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(215,27): warning :                      ~~~~~~^~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(227,11): warning : conversion from ‘unsigned int’ to ‘float’ may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(227,11): warning :       _map(_time, 0, this->time, 0, 100),
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(227,11): warning :            ^~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(227,27): warning : conversion from ‘unsigned int’ to ‘float’ may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(227,27): warning :       _map(_time, 0, this->time, 0, 100),
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(227,27): warning :                      ~~~~~~^~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(320,10): warning : comparison of integer expressions of different signedness: ‘unsigned int’ and ‘int’ [-Wsign-compare]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(320,10): warning :   if (pos == valvePosition || (pos >= valvePosition - 200 && pos <= valvePosition + 200))
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(320,10): warning :           ^
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(320,35): warning : comparison of integer expressions of different signedness: ‘unsigned int’ and ‘int’ [-Wsign-compare]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(320,35): warning :   if (pos == valvePosition || (pos >= valvePosition - 200 && pos <= valvePosition + 200))
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(320,35): warning :                                ~~~~^~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(320,65): warning : comparison of integer expressions of different signedness: ‘unsigned int’ and ‘int’ [-Wsign-compare]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(320,65): warning :   if (pos == valvePosition || (pos >= valvePosition - 200 && pos <= valvePosition + 200))
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(320,65): warning :                                                              ~~~~^~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(331,10): warning : comparison of integer expressions of different signedness: ‘unsigned int’ and ‘int’ [-Wsign-compare]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(331,10): warning :   if (pos > valvePosition)
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(331,10): warning :           ^
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(429,18): warning : comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(429,18): warning :    else if (i + 1 < (sizeof(targets) / sizeof(TempMap)))
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(429,18): warning :             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(493,80): warning : conversion from ‘unsigned int’ to ‘float’ may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(493,80): warning :    targetPos = _map(curOutsideTemp, target->outTemp, otherMap->outTemp, target->valvePos, otherMap->valvePos);
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(493,80): warning :                                                                         ~~~~~~~~^~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(493,100): warning : conversion from ‘unsigned int’ to ‘float’ may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(493,100): warning :    targetPos = _map(curOutsideTemp, target->outTemp, otherMap->outTemp, target->valvePos, otherMap->valvePos);
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(493,100): warning :                                                                                           ~~~~~~~~~~^~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(493,19): warning : conversion from ‘float’ to ‘unsigned int’ may change value [-Wfloat-conversion]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(493,19): warning :    targetPos = _map(curOutsideTemp, target->outTemp, otherMap->outTemp, target->valvePos, otherMap->valvePos);
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(493,19): warning :                ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(498,82): warning : conversion from ‘unsigned int’ to ‘float’ may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(498,82): warning :    targetPos = _map(curOutsideTemp, otherMap->outTemp, target->outTemp, otherMap->valvePos, target->valvePos);
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(498,82): warning :                                                                         ~~~~~~~~~~^~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(498,100): warning : conversion from ‘unsigned int’ to ‘float’ may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(498,100): warning :    targetPos = _map(curOutsideTemp, otherMap->outTemp, target->outTemp, otherMap->valvePos, target->valvePos);
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(498,100): warning :                                                                                             ~~~~~~~~^~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(498,19): warning : conversion from ‘float’ to ‘unsigned int’ may change value [-Wfloat-conversion]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(498,19): warning :    targetPos = _map(curOutsideTemp, otherMap->outTemp, target->outTemp, otherMap->valvePos, target->valvePos);
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(498,19): warning :                ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(741,68): warning : comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(741,68): warning :   while (curRadTemp < targetTemp + TEMP_THRESHOLD_MOVING && curStep < MAX_STEP && tempValvePosition < MAX_POS && tempValvePosition < targetPos + TARGET_THRESHOLD)
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(741,68): warning :                                                             ~~~~~~~~^~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(759,53): warning : comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(759,53): warning :   while (curRadTemp >= targetTemp - 0.10f && curStep < MAX_STEP && tempValvePosition > 0)
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(759,53): warning :                                              ~~~~~~~~^~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(801,13): warning : conversion from ‘float’ to ‘unsigned int’ may change value [-Wfloat-conversion]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(801,13): warning :   MAX_STEP = difference;
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(801,13): warning :              ^~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(828,14): warning : comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(828,14): warning :   if (curStep < MAX_STEP && valvePosition > 0 && valvePosition < MAX_POS)
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(828,14): warning :       ~~~~~~~~^~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(843,15): warning : comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(843,15): warning :    if (curStep == MAX_STEP)
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(843,15): warning :        ~~~~~~~~^~~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1077,50): warning : comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1077,50): warning :      if (valvePosition < MAX_POS && valvePosition < targetPos + TARGET_THRESHOLD)
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1077,50): warning :                                                   ^
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1168,144): warning : conversion from ‘unsigned int’ to ‘float’ may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1168,144): warning :        _printf("T %.2f R %.2f O %.2f waiting for service... %.2f%%\n ", targetTemp, curRadTemp, curOutsideTemp, _map(GetTimePassed(summerStart) * days, 0.0f, TWENTYFOURHOURS * 7, 0.0f, 100.0f));
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1168,144): warning :                                                                                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1179,51): warning : comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1179,51): warning :       if (valvePosition < MAX_POS && valvePosition < targetPos + TARGET_THRESHOLD)
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1179,51): warning :                                                    ^
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1225,22): warning : comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1225,22): warning :     for (int i = 0; i < sizeof(waitTimer) / sizeof(WaitTimer) - 1; i++)
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1225,22): warning :                     ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(175,21): warning : ‘decreaseStart’ defined but not used [-Wunused-variable]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(175,21): warning :  static unsigned int decreaseStart = 0;
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(175,21): warning :                      ^~~~~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(174,21): warning : ‘increaseStart’ defined but not used [-Wunused-variable]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(174,21): warning :  static unsigned int increaseStart = 0;
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(174,21): warning :                      ^~~~~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\json.h(15551,26): message : parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >’ changed in GCC 7.1
+C:\Users\Vadru\source\repos\Test\Test\json.h(15572,30): message : parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >’ changed in GCC 7.1
+/usr/include/c++/8/bits/vector.tcc(74,12): message : parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ changed in GCC 7.1
+/usr/include/c++/8/bits/vector.tcc(74,12): message :     pointer __tmp = _M_allocate_and_copy(__n,
+/usr/include/c++/8/bits/vector.tcc(74,12): message :             ^~~~~
+/usr/include/c++/8/bits/stl_algobase.h(479,5): message : parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_algobase.h(479,5): message :      move(_II __first, _II __last, _OI __result)
+/usr/include/c++/8/bits/stl_algobase.h(479,5): message :      ^~~~
+/usr/include/c++/8/bits/stl_algobase.h(479,5): message : parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_algobase.h(487,39): message : parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_vector.h(1395,2): message : parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_vector.h(1395,2): message :   _M_allocate_and_copy(size_type __n,
+/usr/include/c++/8/bits/stl_vector.h(1395,2): message :   ^~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_vector.h(1395,2): message : parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_vector.h(1401,35): message : parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ changed in GCC 7.1
+/usr/include/c++/8/bits/cpp_type_traits.h(419,5): message : parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >’ changed in GCC 7.1
+/usr/include/c++/8/bits/cpp_type_traits.h(419,5): message :      __miter_base(_Iterator __it)
+/usr/include/c++/8/bits/cpp_type_traits.h(419,5): message :      ^~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_algobase.h(420,5): message : parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_algobase.h(420,5): message :      __copy_move_a2(_II __first, _II __last, _OI __result)
+/usr/include/c++/8/bits/stl_algobase.h(420,5): message :      ^~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_algobase.h(420,5): message : parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >’ changed in GCC 7.1
+/usr/include/c++/8/bits/vector.tcc(109,4): message : parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_uninitialized.h(287,5): message : parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_uninitialized.h(287,5): message :      __uninitialized_copy_a(_InputIterator __first, _InputIterator __last,
+/usr/include/c++/8/bits/stl_uninitialized.h(287,5): message :      ^~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_uninitialized.h(287,5): message : parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_uninitialized.h(289,37): message : parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_iterator.h(987,5): message : parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >’ changed in GCC 7.1
+/usr/include/c++/8/bits/vector.tcc(413,7): message : parameter passing for argument of type ‘std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > >::iterator’ {aka ‘__gnu_cxx::__normal_iterator<nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >’} changed in GCC 7.1
+C:\Users\Vadru\source\repos\Test\Test\json.h(12279,52): message : parameter passing for argument of type ‘std::_Rb_tree_const_iterator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_uninitialized.h(115,5): message : parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_uninitialized.h(115,5): message :      uninitialized_copy(_InputIterator __first, _InputIterator __last,
+/usr/include/c++/8/bits/stl_uninitialized.h(115,5): message :      ^~~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_uninitialized.h(115,5): message : parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_uninitialized.h(134,15): message : parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_uninitialized.h(311,2): message : parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_numeric.h(146,5): message : parameter passing for argument of type ‘std::_Rb_tree_const_iterator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_numeric.h(146,5): message :      accumulate(_InputIterator __first, _InputIterator __last, _Tp __init,
+/usr/include/c++/8/bits/stl_numeric.h(146,5): message :      ^~~~~~~~~~
+/usr/include/c++/8/bits/stl_numeric.h(146,5): message : parameter passing for argument of type ‘std::_Rb_tree_const_iterator<std::pair<const std::__cxx11::basic_string<char>, nlohmann::basic_json<> > >’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_vector.h(463,31): message : parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<const nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_uninitialized.h(76,9): message : parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_uninitialized.h(76,9): message :          __uninit_copy(_InputIterator __first, _InputIterator __last,
+/usr/include/c++/8/bits/stl_uninitialized.h(76,9): message :          ^~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_uninitialized.h(76,9): message : parameter passing for argument of type ‘std::move_iterator<nlohmann::basic_json<>*>’ changed in GCC 7.1
+C:\Users\Vadru\source\repos\Test\Test\json.h(12158,67): message : parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<const nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_uninitialized.h(287,5): message : parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<const nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_uninitialized.h(287,5): message :      __uninitialized_copy_a(_InputIterator __first, _InputIterator __last,
+/usr/include/c++/8/bits/stl_uninitialized.h(287,5): message :      ^~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_uninitialized.h(287,5): message : parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<const nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_uninitialized.h(289,37): message : parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<const nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_numeric.h(146,5): message : parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<const nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_numeric.h(146,5): message :      accumulate(_InputIterator __first, _InputIterator __last, _Tp __init,
+/usr/include/c++/8/bits/stl_numeric.h(146,5): message :      ^~~~~~~~~~
+/usr/include/c++/8/bits/stl_numeric.h(146,5): message : parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<const nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_uninitialized.h(115,5): message : parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<const nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_uninitialized.h(115,5): message :      uninitialized_copy(_InputIterator __first, _InputIterator __last,
+/usr/include/c++/8/bits/stl_uninitialized.h(115,5): message :      ^~~~~~~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_uninitialized.h(115,5): message : parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<const nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_uninitialized.h(134,15): message : parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<const nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_uninitialized.h(76,9): message : parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<const nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >’ changed in GCC 7.1
+/usr/include/c++/8/bits/stl_uninitialized.h(76,9): message :          __uninit_copy(_InputIterator __first, _InputIterator __last,
+/usr/include/c++/8/bits/stl_uninitialized.h(76,9): message :          ^~~~~~~~~~~~~
+/usr/include/c++/8/bits/stl_uninitialized.h(76,9): message : parameter passing for argument of type ‘__gnu_cxx::__normal_iterator<const nlohmann::basic_json<>*, std::vector<nlohmann::basic_json<>, std::allocator<nlohmann::basic_json<> > > >’ changed in GCC 7.1
+  OneWire.cpp
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(178,23): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(178,23): warning :      return digitalRead(_pin);
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(178,23): warning :             ~~~~~~~~~~~^~~~~~
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(269,43): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(269,43): warning :      for (bitMask = 0x01; bitMask; bitMask <<= 1) {
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(269,43): warning :                                    ~~~~~~~~^~~~~
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(298,43): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(298,43): warning :      for (bitMask = 0x01; bitMask; bitMask <<= 1) {
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(298,43): warning :                                    ~~~~~~~~^~~~~
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(456,39): warning : conversion from ‘int’ to ‘unsigned char’ may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(456,39): warning :                ROM_NO[rom_byte_number] &= ~rom_byte_mask;
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(456,39): warning :                ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(464,27): warning : conversion from ‘int’ to ‘unsigned char’ may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(464,27): warning :              rom_byte_mask <<= 1;
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(464,27): warning :              ~~~~~~~~~~~~~~^~~~~
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(522,8): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(522,8): warning :     crc >>= 1;
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(522,8): warning :     ~~~~^~~~~
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(524,11): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(524,11): warning :     inbyte >>= 1;
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(524,11): warning :     ~~~~~~~^~~~~
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(534,11): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(534,11): warning :      crc = ~crc16(input, len, crc);
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(534,11): warning :            ^~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(548,11): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(548,11): warning :        crc >>= 8;
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(548,11): warning :        ~~~~^~~~~
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(553,13): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(553,13): warning :        cdata <<= 6;
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(553,13): warning :        ~~~~~~^~~~~
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(555,13): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(555,13): warning :        cdata <<= 1;
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp(555,13): warning :        ~~~~~~^~~~~
+  Therm.cpp
+C:\Users\Vadru\source\repos\Test\Test\WConstants.h(31,2): warning : #warning "F_CPU was not defined.  Default to 16 MHz." [-Wcpp]
+C:\Users\Vadru\source\repos\Test\Test\WConstants.h(31,2): warning :  #warning "F_CPU was not defined.  Default to 16 MHz."
+C:\Users\Vadru\source\repos\Test\Test\WConstants.h(31,2): warning :   ^~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(253,29): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(253,29): warning :    getAddress(deviceAddress, i);
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(253,29): warning :                              ^
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(302,29): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(302,29): warning :       getAddress(deviceAddr, i);
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(302,29): warning :                              ^
+C:\Users\Vadru\source\repos\Test\Test\therm.h(34,32): warning : conversion from ‘double’ to ‘float’ changes value from ‘-1.9659999999999999e+2’ to ‘-1.96600006e+2f’ [-Wfloat-conversion]
+C:\Users\Vadru\source\repos\Test\Test\therm.h(34,32): warning :  #define DEVICE_DISCONNECTED_F -196.6
+C:\Users\Vadru\source\repos\Test\Test\therm.h(34,32): warning :                                 ^~~~~
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(488,10): message : in expansion of macro ‘DEVICE_DISCONNECTED_F’
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(488,10): message :    return DEVICE_DISCONNECTED_F;
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(488,10): message :           ^~~~~~~~~~~~~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(500,4): warning : conversion from ‘int’ to ‘int16_t’ {aka ‘short int’} may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(500,4): warning :   int16_t fpTemperature = (((int16_t) scratchPad[TEMP_MSB]) << 11)
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(500,4): warning :                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(500,4): warning :     | (((int16_t) scratchPad[TEMP_LSB]) << 3);
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(500,4): warning :     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(523,5): warning : conversion from ‘int’ to ‘int16_t’ {aka ‘short int’} may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(523,5): warning :    fpTemperature = ((fpTemperature & 0xfff0) << 3) - 32
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(523,5): warning :                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(523,5): warning :      + (((scratchPad[COUNT_PER_C] - scratchPad[COUNT_REMAIN]) << 7)
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(523,5): warning :      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(523,5): warning :        / scratchPad[COUNT_PER_C]);
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(523,5): warning :        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(580,38): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(580,38): warning :    scratchPad[HIGH_ALARM_TEMP] = data >> 8;
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(580,38): warning :                                  ~~~~~^~~~
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(581,37): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(581,37): warning :    scratchPad[LOW_ALARM_TEMP] = data & 255;
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(581,37): warning :                                 ~~~~~^~~~~
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(590,38): warning : conversion from ‘int’ to ‘int16_t’ {aka ‘short int’} may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(590,38): warning :    data = scratchPad[HIGH_ALARM_TEMP] << 8;
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(590,38): warning :           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(591,8): warning : conversion from ‘int’ to ‘int16_t’ {aka ‘short int’} may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(591,8): warning :    data += scratchPad[LOW_ALARM_TEMP];
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(591,8): warning :    ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(611,25): warning : conversion from ‘double’ to ‘float’ may change value [-Wfloat-conversion]
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(611,25): warning :   return (celsius * 1.8) + 32;
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(611,25): warning :          ~~~~~~~~~~~~~~~~^~~~
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(616,27): warning : conversion from ‘double’ to ‘float’ may change value [-Wfloat-conversion]
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(616,27): warning :   return (fahrenheit - 32) * 0.555555556;
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(616,27): warning :          ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(625,21): warning : conversion from ‘double’ to ‘float’ may change value [-Wfloat-conversion]
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(625,21): warning :   return (float) raw * 0.0078125;
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(625,21): warning :          ~~~~~~~~~~~~^~~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\therm.h(34,32): warning : conversion from ‘double’ to ‘float’ changes value from ‘-1.9659999999999999e+2’ to ‘-1.96600006e+2f’ [-Wfloat-conversion]
+C:\Users\Vadru\source\repos\Test\Test\therm.h(34,32): warning :  #define DEVICE_DISCONNECTED_F -196.6
+C:\Users\Vadru\source\repos\Test\Test\therm.h(34,32): warning :                                 ^~~~~
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(633,10): message : in expansion of macro ‘DEVICE_DISCONNECTED_F’
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(633,10): message :    return DEVICE_DISCONNECTED_F;
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(633,10): message :           ^~~~~~~~~~~~~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(636,35): warning : conversion from ‘double’ to ‘float’ may change value [-Wfloat-conversion]
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(636,35): warning :   return ((float) raw * 0.0140625) + 32;
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(636,35): warning :          ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(780,20): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(780,20): warning :    uint8_t ibit = 1 << (i & 7);
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(780,20): warning :                   ~~^~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(816,30): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(816,30): warning :     alarmSearchAddress[ibyte] &= ~ibit;
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(816,30): warning :     ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(836,65): warning : conversion from ‘int’ to ‘int8_t’ {aka ‘signed char’} may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(836,65): warning :    int8_t temp = calculateTemperature(deviceAddress, scratchPad) >> 7;
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp(836,65): warning :                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+  Linking objects
+  Test.vcxproj -> C:\Users\Vadru\source\repos\Test\Test\bin\ARM\Debug\Test.out
+  Invoking 'sudo cp /home/pi/projects/Test/bin/ARM/Release/Test.out /usr/local/bin/test', working directory: '/home/pi/projects/Test/'
+  cp: cannot create regular file '/usr/local/bin/test': Text file busy
+  
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Application Type\Linux\1.0\Linux.targets(590,5): error : sudo cp /home/pi/projects/Test/bin/ARM/Release/Test.out /usr/local/bin/test exited with code 1, please see the Output Window - Build output for more details (NOTE: the build output verbosity might need to be changed in Tools Options to see more information in the Output Window).

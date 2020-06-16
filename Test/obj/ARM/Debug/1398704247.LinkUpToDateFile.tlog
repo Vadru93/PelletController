@@ -1,0 +1,1 @@
+g++ -o "/home/pi/projects/Test/bin/ARM/Debug/Test.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/pi/projects/Test/obj/ARM/Debug/main.o /home/pi/projects/Test/obj/ARM/Debug/OneWire.o /home/pi/projects/Test/obj/ARM/Debug/Therm.o -lwiringPi

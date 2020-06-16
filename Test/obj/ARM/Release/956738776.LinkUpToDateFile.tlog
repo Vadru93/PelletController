@@ -1,0 +1,1 @@
+g++ -o "/home/pi/projects/Test/bin/ARM/Release/Test.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/pi/projects/Test/obj/ARM/Release/main.o /home/pi/projects/Test/obj/ARM/Release/OneWire.o /home/pi/projects/Test/obj/ARM/Release/Therm.o -lwiringPi -lpthread

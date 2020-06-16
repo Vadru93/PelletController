@@ -1,0 +1,7 @@
+C:\Users\Vadru\source\repos\Test\Test\OneWire.cpp|637165363366654012|/home/pi/projects/Test/||g++ -c -x c++ /home/pi/projects/Test/OneWire.cpp -g1 -o "/home/pi/projects/Test/obj/ARM/Release/OneWire.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O3 -fno-strict-aliasing -funroll-all-loops -flto -fomit-frame-pointer -DNDEBUG -fthreadsafe-statics -fexceptions -frtti -std=c++11
+C:\Users\Vadru\source\repos\Test\Test\Therm.cpp|637168877574275322|/home/pi/projects/Test/||g++ -c -x c++ /home/pi/projects/Test/Therm.cpp -g1 -o "/home/pi/projects/Test/obj/ARM/Release/Therm.o" -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -Wconversion -W"return-type" -Wparentheses -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O3 -fno-strict-aliasing -funroll-all-loops -flto -fomit-frame-pointer -DNDEBUG -fthreadsafe-statics -fexceptions -frtti -std=c++11
+C:\Users\Vadru\source\repos\Test\Test\Header.h|637263127573857461|/home/pi/projects/Test/|| 
+C:\Users\Vadru\source\repos\Test\Test\json.h|637210512699172560|/home/pi/projects/Test/|| 
+C:\Users\Vadru\source\repos\Test\Test\OneWire.h|637158735982660775|/home/pi/projects/Test/|| 
+C:\Users\Vadru\source\repos\Test\Test\therm.h|637165087410980251|/home/pi/projects/Test/|| 
+C:\Users\Vadru\source\repos\Test\Test\WConstants.h|637161117982464154|/home/pi/projects/Test/|| 

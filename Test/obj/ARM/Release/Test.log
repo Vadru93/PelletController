@@ -1,0 +1,104 @@
+﻿  Validating sources
+  Copying sources remotely to '192.168.1.226'
+  Validating architecture
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  main.cpp
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(241,17): warning : conversion from 'unsigned int' to 'float' may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(241,17): warning :    this->value = v;
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(241,17): warning :                  ^
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(298,134): warning : conversion from 'unsigned int' to 'float' may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(536,20): warning : conversion from 'unsigned int' to 'std::vector<unsigned char>::value_type' {aka 'unsigned char'} may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(536,20): warning :   final.push_back(s >> 0);
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(536,20): warning :                   ~~^~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(537,20): warning : conversion from 'unsigned int' to 'std::vector<unsigned char>::value_type' {aka 'unsigned char'} may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(537,20): warning :   final.push_back(s >> 8);
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(537,20): warning :                   ~~^~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(538,20): warning : conversion from 'unsigned int' to 'std::vector<unsigned char>::value_type' {aka 'unsigned char'} may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(538,20): warning :   final.push_back(s >> 16);
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(538,20): warning :                   ~~^~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(539,20): warning : conversion from 'unsigned int' to 'std::vector<unsigned char>::value_type' {aka 'unsigned char'} may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(539,20): warning :   final.push_back(s >> 24);
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(539,20): warning :                   ~~^~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(541,20): warning : comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(541,20): warning :   for (int i = 0; i < s; i++)
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(541,20): warning :                   ~~^~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(546,50): warning : comparison of integer expressions of different signedness: 'ssize_t' {aka 'int'} and 'std::vector<unsigned char>::size_type' {aka 'unsigned int'} [-Wsign-compare]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(546,50): warning :   if (write(client, &final.front(), final.size()) != final.size())
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(546,50): warning :       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(696,11): warning : conversion from 'unsigned int' to 'float' may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(696,11): warning :       _map(_time, 0, (float)this->time, 0, 100),
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(696,11): warning :            ^~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(708,11): warning : conversion from 'unsigned int' to 'float' may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(708,11): warning :       _map(_time, 0, (float)this->time, 0, 100),
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(708,11): warning :            ^~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(904,13): warning : comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(904,13): warning :    if (i + 1 < (sizeof(pelletsLeft) / sizeof(DistMap)))
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(904,13): warning :        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(898,16): warning : variable 'interpolated' set but not used [-Wunused-but-set-variable]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(898,16): warning :   unsigned char interpolated = 0;
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(898,16): warning :                 ^~~~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(899,17): warning : variable 'otherMap' set but not used [-Wunused-but-set-variable]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(899,17): warning :   const DistMap* otherMap;
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(899,17): warning :                  ^~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(996,10): warning : comparison of integer expressions of different signedness: 'unsigned int' and 'int' [-Wsign-compare]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(996,10): warning :   if (pos == valvePosition || ((int)pos >= (int)valvePosition - 2000 && pos <= valvePosition + 2000))
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(996,10): warning :           ^
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(996,76): warning : comparison of integer expressions of different signedness: 'unsigned int' and 'int' [-Wsign-compare]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(996,76): warning :   if (pos == valvePosition || ((int)pos >= (int)valvePosition - 2000 && pos <= valvePosition + 2000))
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(996,76): warning :                                                                         ~~~~^~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1013,10): warning : comparison of integer expressions of different signedness: 'unsigned int' and 'int' [-Wsign-compare]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1013,10): warning :   if (pos > valvePosition)
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1013,10): warning :           ^
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1119,18): warning : comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1119,18): warning :    else if (i + 1 < (sizeof(targets) / sizeof(TempMap)))
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1119,18): warning :             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1183,80): warning : conversion from 'unsigned int' to 'float' may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1183,80): warning :    targetPos = _map(curOutsideTemp, target->outTemp, otherMap->outTemp, target->valvePos, otherMap->valvePos);
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1183,80): warning :                                                                         ~~~~~~~~^~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1183,100): warning : conversion from 'unsigned int' to 'float' may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1183,100): warning :    targetPos = _map(curOutsideTemp, target->outTemp, otherMap->outTemp, target->valvePos, otherMap->valvePos);
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1183,100): warning :                                                                                           ~~~~~~~~~~^~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1183,19): warning : conversion from 'float' to 'unsigned int' may change value [-Wfloat-conversion]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1183,19): warning :    targetPos = _map(curOutsideTemp, target->outTemp, otherMap->outTemp, target->valvePos, otherMap->valvePos);
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1183,19): warning :                ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1188,82): warning : conversion from 'unsigned int' to 'float' may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1188,82): warning :    targetPos = _map(curOutsideTemp, otherMap->outTemp, target->outTemp, otherMap->valvePos, target->valvePos);
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1188,82): warning :                                                                         ~~~~~~~~~~^~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1188,100): warning : conversion from 'unsigned int' to 'float' may change value [-Wconversion]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1188,100): warning :    targetPos = _map(curOutsideTemp, otherMap->outTemp, target->outTemp, otherMap->valvePos, target->valvePos);
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1188,100): warning :                                                                                             ~~~~~~~~^~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1188,19): warning : conversion from 'float' to 'unsigned int' may change value [-Wfloat-conversion]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1188,19): warning :    targetPos = _map(curOutsideTemp, otherMap->outTemp, target->outTemp, otherMap->valvePos, target->valvePos);
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1188,19): warning :                ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1335,14): error : invalid conversion from 'const tm*' to 'tm*' [-fpermissive]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1335,14): error :   yesterday = timeinfo;
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1335,14): error :               ^~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1669,68): warning : comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1669,68): warning :   while (curRadTemp < targetTemp + TEMP_THRESHOLD_MOVING && curStep < MAX_STEP && tempValvePosition < MAX_POS && tempValvePosition < targetPos + TARGET_THRESHOLD)
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1669,68): warning :                                                             ~~~~~~~~^~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1687,53): warning : comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1687,53): warning :   while (curRadTemp >= targetTemp - 0.10f && curStep < MAX_STEP && tempValvePosition > 0)
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1687,53): warning :                                              ~~~~~~~~^~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1729,13): warning : conversion from 'float' to 'unsigned int' may change value [-Wfloat-conversion]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1729,13): warning :   MAX_STEP = difference;
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1729,13): warning :              ^~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1756,14): warning : comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1756,14): warning :   if (curStep < MAX_STEP && valvePosition > 0 && valvePosition < MAX_POS)
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1756,14): warning :       ~~~~~~~~^~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1771,15): warning : comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1771,15): warning :    if (curStep == MAX_STEP)
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1771,15): warning :        ~~~~~~~~^~~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1966,51): warning : comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1966,51): warning :       if (valvePosition < MAX_POS && valvePosition < targetPos + TARGET_THRESHOLD)
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(1966,51): warning :                                                    ^
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(2032,52): warning : comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(2032,52): warning :        if (valvePosition < MAX_POS && valvePosition < targetPos + TARGET_THRESHOLD)
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(2032,52): warning :                                                     ^
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(651,21): warning : 'decreaseStart' defined but not used [-Wunused-variable]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(651,21): warning :  static unsigned int decreaseStart = 0;
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(651,21): warning :                      ^~~~~~~~~~~~~
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(650,21): warning : 'increaseStart' defined but not used [-Wunused-variable]
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(650,21): warning :  static unsigned int increaseStart = 0;
+C:\Users\Vadru\source\repos\Test\Test\main.cpp(650,21): warning :                      ^~~~~~~~~~~~~
